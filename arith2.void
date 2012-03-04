@@ -1,0 +1,20 @@
+PROGRAM arith;
+
+VAR a,b : INTEGER;
+
+FUNCTION c(x:INTEGER) : INTEGER;
+
+BEGIN
+  RETURN x * 2
+END;
+
+BEGIN
+
+  a := b + c(NOT ( 1 < 30 ) ) * b - c(2)*(a + a + b + 23);
+  WHILE ( 1 < 10 ) DO
+    BEGIN
+     b := 33;
+     a := b * b
+    END
+END
+
